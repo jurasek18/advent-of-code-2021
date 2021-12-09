@@ -1,7 +1,5 @@
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Puzzle_04 {
@@ -97,8 +95,6 @@ public class Puzzle_04 {
         // ArrayList<Integer> cardsNumbers = new ArrayList<>();
         // ArrayList<Integer[][]> cardsList = new ArrayList<>();
         ArrayList<BingoCard> cardsList = new ArrayList<>();
-
-        ArrayList<Integer[][]> bingoList = new ArrayList<>();
 
         Integer actCard[][] = new Integer[5][5];
         Integer nullCard[][] = new Integer[5][5];
